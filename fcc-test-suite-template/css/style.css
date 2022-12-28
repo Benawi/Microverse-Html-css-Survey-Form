@@ -1,0 +1,10 @@
+body {
+    font-family: 'Anaheim';
+    font-size: 1.2em;
+  }
+  
+  #outside {
+    background-color: lightgoldenrodyellow;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
