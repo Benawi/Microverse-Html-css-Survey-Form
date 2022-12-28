@@ -9,8 +9,24 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <div id="outside">
-<form name="microform" method="get">
-  <input  type="text" name="name"/> 
+<div class="title">
+  <h1 id="tite">freeCodeCamp Survey Form
+  </h1>
+  <p id="description">Thank you for taking the time to help us improve the platform
+</p>
+</div>
+<form id="survey-form" name="microform" method="get">
+  
+  <label for="name">
+    <input id="name" type="text" name="name" />
+  </label>
+  <label for="">
+    <input type="email" id="email" placeholder="user@gmail.com" required>
+  </label>
+  <label for="number">
+    <input type="number" id="number" pattern="[0-9]+">
+  </label>
+
 </form>
 
 

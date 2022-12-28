@@ -8,3 +8,10 @@ body {
     padding-top: 25px;
     padding-bottom: 25px;
   }
+
+
+  /* inputs form */
+
+  input:invalid {
+    border: 3px solid red;
+}
