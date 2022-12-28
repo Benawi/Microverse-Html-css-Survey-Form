@@ -10,8 +10,7 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <div id="outside">
 <div class="title">
-  <h1 id="tite">freeCodeCamp Survey Form
-  </h1>
+  <h1 id="tite"> Survey Form </h1>
   <p id="description">Thank you for taking the time to help us improve the platform
 </p>
 </div>
@@ -55,7 +54,28 @@
       <input type="radio" name="gender" value="other"> Other
     </p>
     <br/>
-    </fieldset>
+
+    <label for =" stats">Education background</label>
+    <p>
+      <input type="checkbox" name="Degree" value="BSc"> I have Bachelor degree <br>
+      <input type="checkbox" name="msc" value="MSC"> I have Masters degree<br>
+      <input type="checkbox" name="phd" value="Phd"> I have PhD <br>
+       </p>
+  </fieldset>
+  
+  <fieldset>
+    <legend>Pleas say something about Microverse</legend>
+    <div>
+      <label for="msg"></label>
+      <p>Max 50 words</p>
+      <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Enter Text Here"></textarea>  
+    </div>
+ </fieldset>
+   <br/>
+   <br/>
+  <div id="submitbutton">
+    <button type="submit" id="submit">Summit</button>  
+  </div>
 </form>
 
 
